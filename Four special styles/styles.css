@@ -8,29 +8,24 @@
   --nord-2-color:#2e3440;
   --nord-1-color:#8fbcbb;
 
-background: linear-gradient(45deg, #2e3440 30%, #561505);
-  background: linear-gradient(45deg, #781500, #300c03);
-*/
+/* 1. 浅米白+浅蓝灰 */
+background: linear-gradient(45deg, #faf0e6 30%, #A5B8C9);
+/* 2. 中灰+深蓝灰 */
+background: linear-gradient(45deg, #808080 30%, #3b4252);
+/* 3. 浅海蓝+深海蓝 */
+background: linear-gradient(45deg, #B0D0E0 30%, #173777);
+/* 4. 诺德浅青+诺德深灰蓝 */
+background: linear-gradient(45deg, #8fbcbb 30%, #2e3440);
 
-/* 1. Light 主题的惊喜效果（浅蓝灰起点） */
-.surprise-light {
+/* 1. （浅蓝灰） */
   background: linear-gradient(45deg, #A5B8C9 30%, #300c03);
-}
-
-/* 2. Dark 主题的惊喜效果（深蓝灰起点） */
-.surprise-dark {
+/* 2. （深蓝灰起点） */
   background: linear-gradient(45deg, #3b4252 30%, #300c03);
-}
-
-/* 3. Ocean 主题的惊喜效果（深海蓝起点） */
-.surprise-ocean {
+/* 3. （深海蓝起点） */
   background: linear-gradient(45deg, #173777 30%, #300c03);
-}
-
-/* 4. Nord 主题的惊喜效果（深灰蓝起点） */
-.surprise-nord {
+/* 4. （深灰蓝起点） */
   background: linear-gradient(45deg, #2e3440 30%, #300c03);
-}
+
 /**
 是的，你现在完全理解对了！ 我来用最简单的话把整个“意外惊喜”的过程再捋一遍：最开始
 body 的背景是：
