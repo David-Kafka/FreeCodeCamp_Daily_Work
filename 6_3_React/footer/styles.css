@@ -1,0 +1,27 @@
+footer{
+  background:#c0c0c0;
+}
+a{
+  text-decoration:none;
+  color:black;
+}
+a:hover{
+  color:white;
+}
+ul{
+  list-style-type:none;
+}
+footer{
+  display:grid;
+  justify-items:center;
+
+  grid-template-columns:1fr 1fr 1fr;
+}
+p{
+  grid-column:1 / -1;
+  text-align:center;
+}
+/* .test{
+  display:flex;
+
+} */
